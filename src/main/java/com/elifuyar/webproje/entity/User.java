@@ -40,6 +40,14 @@ public class User {
     public User() {
     }
 
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
     @PrePersist
     protected void onCreate() {
         if (createdAt == null) {

@@ -22,6 +22,14 @@ public class Order {
             precision = 10, scale = 2)
     private BigDecimal totalAmount;
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 30)
     private OrderStatus status = OrderStatus.PENDING;
