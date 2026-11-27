@@ -26,6 +26,14 @@ public class Order {
         return user;
     }
 
+    public OrderStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(OrderStatus status) {
+        this.status = status;
+    }
+
     public BigDecimal getTotalAmount() {
         return totalAmount;
     }

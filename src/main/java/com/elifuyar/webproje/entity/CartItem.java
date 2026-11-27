@@ -18,6 +18,14 @@ public class CartItem {
         return cart;
     }
 
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+
     public void setCart(Cart cart) {
         this.cart = cart;
     }
