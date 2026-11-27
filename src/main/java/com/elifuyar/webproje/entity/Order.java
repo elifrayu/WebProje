@@ -26,6 +26,14 @@ public class Order {
         return user;
     }
 
+    public BigDecimal getTotalAmount() {
+        return totalAmount;
+    }
+
+    public void setTotalAmount(BigDecimal totalAmount) {
+        this.totalAmount = totalAmount;
+    }
+
     public void setUser(User user) {
         this.user = user;
     }
